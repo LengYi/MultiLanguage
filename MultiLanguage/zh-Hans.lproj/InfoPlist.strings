@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  MultiLanguage
+
+  Created by zj-db1140 on 2018/11/7.
+  Copyright © 2018年 ice. All rights reserved.
+*/
+CFBundleDisplayName = "贝壳钱包";
+CFBundleName = "贝壳钱包";
