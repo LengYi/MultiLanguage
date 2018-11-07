@@ -5,5 +5,9 @@
   Created by zj-db1140 on 2018/11/7.
   Copyright © 2018年 ice. All rights reserved.
 */
+"nav_title" = "APP 语言切换测试";
 "test_name" = "中文名称";
 "test_title" = "中文标题";
+"test_jump" = "跳转";
+"language0" = "中文";
+"language1" = "英文";

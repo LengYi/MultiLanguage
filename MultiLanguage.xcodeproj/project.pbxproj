@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CF02C3D82192E78A0087FE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02C3D72192E78A0087FE5E /* AppDelegate.swift */; };
-		CF02C3DA2192E78A0087FE5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02C3D92192E78A0087FE5E /* ViewController.swift */; };
-		CF02C3DD2192E78A0087FE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF02C3DB2192E78A0087FE5E /* Main.storyboard */; };
+		CF02C3DA2192E78A0087FE5E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02C3D92192E78A0087FE5E /* HomeViewController.swift */; };
 		CF02C3DF2192E78B0087FE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF02C3DE2192E78B0087FE5E /* Assets.xcassets */; };
 		CF02C3E22192E78B0087FE5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF02C3E02192E78B0087FE5E /* LaunchScreen.storyboard */; };
 		CF02C3ED2192E78B0087FE5E /* MultiLanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02C3EC2192E78B0087FE5E /* MultiLanguageTests.swift */; };
 		CF02C3F82192E78B0087FE5E /* MultiLanguageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF02C3F72192E78B0087FE5E /* MultiLanguageUITests.swift */; };
 		CF02C4212192F02D0087FE5E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF02C4232192F02D0087FE5E /* Localizable.strings */; };
 		CF5B6B4C2192FDD500FF765F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF5B6B4E2192FDD500FF765F /* InfoPlist.strings */; };
+		CF5B6B51219304DD00FF765F /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B6B50219304DD00FF765F /* Language.swift */; };
+		CF5B6B532193060F00FF765F /* LanguageSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B6B522193060F00FF765F /* LanguageSetViewController.swift */; };
+		CF5B6B5621930AD900FF765F /* icNext@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5B6B5421930AD900FF765F /* icNext@2x.png */; };
+		CF5B6B5721930AD900FF765F /* icNext@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5B6B5521930AD900FF765F /* icNext@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,7 @@
 /* Begin PBXFileReference section */
 		CF02C3D42192E78A0087FE5E /* MultiLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF02C3D72192E78A0087FE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF02C3D92192E78A0087FE5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF02C3DC2192E78A0087FE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF02C3D92192E78A0087FE5E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CF02C3DE2192E78B0087FE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF02C3E12192E78B0087FE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF02C3E32192E78B0087FE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		CF5B6B4B2192FDCF00FF765F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CF5B6B4D2192FDD500FF765F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		CF5B6B4F2192FDD900FF765F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF5B6B50219304DD00FF765F /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		CF5B6B522193060F00FF765F /* LanguageSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSetViewController.swift; sourceTree = "<group>"; };
+		CF5B6B5421930AD900FF765F /* icNext@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icNext@2x.png"; sourceTree = "<group>"; };
+		CF5B6B5521930AD900FF765F /* icNext@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icNext@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,14 +109,17 @@
 		CF02C3D62192E78A0087FE5E /* MultiLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				CF5B6B5421930AD900FF765F /* icNext@2x.png */,
+				CF5B6B5521930AD900FF765F /* icNext@3x.png */,
+				CF5B6B50219304DD00FF765F /* Language.swift */,
 				CF02C3D72192E78A0087FE5E /* AppDelegate.swift */,
-				CF02C3D92192E78A0087FE5E /* ViewController.swift */,
-				CF02C3DB2192E78A0087FE5E /* Main.storyboard */,
+				CF02C3D92192E78A0087FE5E /* HomeViewController.swift */,
 				CF02C3DE2192E78B0087FE5E /* Assets.xcassets */,
 				CF02C3E02192E78B0087FE5E /* LaunchScreen.storyboard */,
 				CF02C3E32192E78B0087FE5E /* Info.plist */,
 				CF02C4232192F02D0087FE5E /* Localizable.strings */,
 				CF5B6B4E2192FDD500FF765F /* InfoPlist.strings */,
+				CF5B6B522193060F00FF765F /* LanguageSetViewController.swift */,
 			);
 			path = MultiLanguage;
 			sourceTree = "<group>";
@@ -238,10 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5B6B5621930AD900FF765F /* icNext@2x.png in Resources */,
 				CF02C3E22192E78B0087FE5E /* LaunchScreen.storyboard in Resources */,
+				CF5B6B5721930AD900FF765F /* icNext@3x.png in Resources */,
 				CF02C4212192F02D0087FE5E /* Localizable.strings in Resources */,
 				CF02C3DF2192E78B0087FE5E /* Assets.xcassets in Resources */,
-				CF02C3DD2192E78A0087FE5E /* Main.storyboard in Resources */,
 				CF5B6B4C2192FDD500FF765F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF02C3DA2192E78A0087FE5E /* ViewController.swift in Sources */,
+				CF5B6B51219304DD00FF765F /* Language.swift in Sources */,
+				CF5B6B532193060F00FF765F /* LanguageSetViewController.swift in Sources */,
+				CF02C3DA2192E78A0087FE5E /* HomeViewController.swift in Sources */,
 				CF02C3D82192E78A0087FE5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF02C3DB2192E78A0087FE5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF02C3DC2192E78A0087FE5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF02C3E02192E78B0087FE5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
